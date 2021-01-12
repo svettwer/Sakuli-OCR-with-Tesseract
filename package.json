@@ -3,17 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "npm run offerNumber && npm run ocrAutomation",
-    "offerNumber": "sakuli run sakuli/offerNumber",
-    "ocrAutomation": "sakuli run sakuli/ocrAutomation"
-  },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@sakuli/cli": "next",
-    "@sakuli/ocr": "next",
-    "@sakuli/legacy-types": "next",
-    "typescript": "4.1.3"
-  }
+  "license": "ISC"
 }

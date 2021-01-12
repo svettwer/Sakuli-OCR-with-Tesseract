@@ -4,7 +4,7 @@ const path = require('path');
     const testCase = new TestCase("Check offer");
     const env = new Environment()
     try {
-        await _navigateTo(path.join("file://", path.resolve(), "sakuli/offerNumber/check/offer.png"))
+        await _navigateTo(path.join("file://", path.resolve(), "/check/offer.png"))
         await env.type("+", Key.CTRL)
         await env.type("+", Key.CTRL)
         await env.type(Key.PAGE_DOWN)
