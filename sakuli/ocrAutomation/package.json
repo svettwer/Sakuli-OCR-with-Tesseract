@@ -1,0 +1,15 @@
+{
+  "name": "ocr-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sakuli run ."
+  },
+  "dependencies": {
+    "@sakuli/cli": "next",
+    "@sakuli/ocr": "next",
+    "@sakuli/legacy-types": "next",
+    "typescript": "4.1.3"
+  }
+}
